@@ -9,7 +9,6 @@ public class homework01 {
         // 랜덤으로 정수 10개 저장
         // 최소값을 찾아주세요!-> 몇개?
         int[] datas = new int[10];
-        int max = datas[0];
         Random rand = new Random();
         for (int i = 0; i < datas.length; i++) {
             datas[i] = rand.nextInt(10) + 1;
