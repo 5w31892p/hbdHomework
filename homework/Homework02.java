@@ -22,5 +22,21 @@ public class Homework02 {
                 System.out.println("1~4까지의 숫자만 입력해주세요.");
             }
         }
+//        while (true) {
+//            int answer = scanner.nextInt();
+//            switch (answer) {
+//                case 3:
+//                    System.out.println("정답입니다.");
+//                    break;
+//                case 1:
+//                case 2:
+//                case 4:
+//                    System.out.println("오답입니다.\n다음 중 프로그래밍 언어가 아닌것은?");
+//                    continue;
+//                default:
+//                    System.out.println("올바른 숫자를 입력해주세요.\n다음 중 프로그래밍 언어가 아닌것은?");
+//                    continue;
+//            }
+//            break;
     }
 }
