@@ -64,7 +64,7 @@ public class Prac03 {
         // 년도와 월을 입력 받아 그 달의 마지막 날짜 출력
         System.out.println("출력하고 싶은 마지막 날짜의 연도와 달을 입력해주세요.");
         System.out.println("연도");
-        int year = scanner.nextInt();
+        int years = scanner.nextInt();
         System.out.println("달");
         int month = scanner.nextInt();
         int day;
@@ -86,7 +86,7 @@ public class Prac03 {
                 day = 30;
                 break;
             case 2:
-                if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                if (years % 4 == 0 && years % 100 != 0 || years % 400 == 0) {
                     day = 29;
                 } else {
                     day = 28;
@@ -101,7 +101,7 @@ public class Prac03 {
         if (day == 0) {
             System.out.println("존재하지 않는 달 입니다.");
         } else {
-            System.out.println("입력해주신 " + year + "년 " + month + "월의 마지막 날짜는 " + day + "일 입니다.");
+            System.out.println("입력해주신 " + years + "년 " + month + "월의 마지막 날짜는 " + day + "일 입니다.");
         }
 
         // 오답일 경우 계속 문제 풀기 및 정답일 경우 코드 종료

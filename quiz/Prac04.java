@@ -42,18 +42,18 @@ public class Prac04 {
         System.out.println("자연수 n을 입력해주세요.");
         int n = scanner.nextInt();
         System.out.println("--------------------");
-        int sum = 0;
-        for (int i = 0; i <= n; i++) {
-            if (i % 2 == 0) {
-                sum += i;
+        int ssum = 0;
+        for (int j = 0; j <= n; j++) {
+            if (j % 2 == 0) {
+                sum += j;
             }
         }
-        System.out.println("입력해주신 자연수 " + n + " 짝수의 합은 " + sum + "입니다.");
+        System.out.println("입력해주신 자연수 " + n + " 짝수의 합은 " + ssum + "입니다.");
 
-        int i = 0;
-        while (i <= n) {
-            i++;
-            if (i % 2 == 0) {
+        int k = 0;
+        while (k <= n) {
+            k++;
+            if (k % 2 == 0) {
                 sum += i;
             }
         }
@@ -64,10 +64,10 @@ public class Prac04 {
         System.out.println("숫자 10개를 입력해주세요.");
         int even = 0;
         int odd = 0;
-        for (int i = 0; i < 10; i++) {
-            System.out.println((i + 1) + "번째 숫자");
-            int num = scanner.nextInt();
-            if (num % 2 == 0) {
+        for (int x = 0; x < 10; x++) {
+            System.out.println((x + 1) + "번째 숫자");
+            int nums = scanner.nextInt();
+            if (nums % 2 == 0) {
                 even ++;
             } else {
                 odd ++;
@@ -76,11 +76,11 @@ public class Prac04 {
         }
 
 
-        int i = 0;
-        while (i < 10) {
-            System.out.println((i + 1) + "번째 숫자");
-            int num = scanner.nextInt();
-            if (num % 2 == 0) {
+        int y = 0;
+        while (y < 10) {
+            System.out.println((y + 1) + "번째 숫자");
+            int numm = scanner.nextInt();
+            if (numm % 2 == 0) {
                 even++;
             } else {
                 odd++;
@@ -91,23 +91,23 @@ public class Prac04 {
 
 
         // 구구단 (2~9단) 까지 출력
-        for (int i = 2; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                System.out.print( i + " * " + j + " = " + (i*j) + "\t");
+        for (int w = 2; w < 10; w++) {
+            for (int q = 1; q < 10; q++) {
+                System.out.print( w + " * " + q + " = " + (w*q) + "\t");
             }
             System.out.println("");
         }
 
 
-        int i = 2;
+        int h = 2;
         while (true) {
-            if (i >= 10) {
+            if (h >= 10) {
                 break;
             }
             for (int j = 1; j < 10; j++) {
-                System.out.print(i + " * " + j + " = " + (i * j) + "\t");
+                System.out.print(h + " * " + j + " = " + (h * j) + "\t");
             }
-            i++;
+            h++;
             System.out.println("");
         }
     }
