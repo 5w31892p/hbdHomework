@@ -1,4 +1,4 @@
-package com.sparta.hbdstudy.quiz;
+package com.sparta.hbdstudy.quiz.prac05;
 // 계산기 구현
 // long타입  + - * , double타입  /
 public class Prac05Calculator {

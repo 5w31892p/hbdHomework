@@ -1,4 +1,4 @@
-package com.sparta.hbdstudy.quiz;
+package com.sparta.hbdstudy.quiz.prac05;
 
 import java.util.Scanner;
 

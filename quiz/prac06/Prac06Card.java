@@ -1,4 +1,4 @@
-package com.sparta.hbdstudy.quiz;
+package com.sparta.hbdstudy.quiz.prac06;
 
 public class Prac06Card {
 	// 카드 생성 프로그램  예제
